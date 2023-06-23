@@ -11,7 +11,7 @@ from .yakuza.yakuza_series import YakuzaGameModDataChecker, yakuza_check_rmm, ya
 
 class Yakuza0Game(BasicGame):
 
-    __yakuza_exe_dir = 'media'
+    __yakuza_exe_dir = ''
 
     Name = "Yakuza 0 Support Plugin"
     Author = "SutandoTsukai181"
