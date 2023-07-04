@@ -11,7 +11,7 @@ from .yakuza.yakuza_series import YakuzaGameModDataChecker, yakuza_check_rmm, ya
 
 class YakuzaKiwamiGame(BasicGame):
 
-    __yakuza_exe_dir = 'media'
+    __yakuza_exe_dir = ''
 
     Name = "Yakuza Kiwami Support Plugin"
     Author = "SutandoTsukai181"
