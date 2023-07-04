@@ -8,10 +8,10 @@ const STEAMAPP_ID = '834530';
 const RMM_MODPAGE = 'https://github.com/SutandoTsukai181/RyuModManager/releases/latest';
 const RMM_EXE = 'RyuModManager.exe';
 const PARLESS_ASI = 'YakuzaParless.asi';
-const DATA_PATH = path.join('media', 'data');
-const MODS_PATH = path.join('media', 'mods');
+const DATA_PATH = 'data';
+const MODS_PATH = 'mods';
 const EXT_MODS_PATH = '_externalMods'
-const GAME_EXE = path.join('media', 'YakuzaKiwami.exe');
+const GAME_EXE = 'YakuzaKiwami.exe';
 
 function main(context) {
 
@@ -51,7 +51,7 @@ function findGame() {
 }
 
 function prepareForModding(discovery, api) {
-    return checkForRMM(api, path.join(discovery.path, 'media', RMM_EXE));
+    return checkForRMM(api, path.join(discovery.path, RMM_EXE));
 }
 
 function checkForRMM(api, qModPath) {
