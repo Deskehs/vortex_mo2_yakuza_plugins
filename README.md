@@ -1,7 +1,7 @@
 # Yakuza Games Support Plugins Modified
 Plugins for Yakuza game series to add support for [Vortex](https://www.nexusmods.com/about/vortex/) and [Mod Organizer](https://github.com/ModOrganizer2/modorganizer).
 
-Modified to support GOG versions of Yakuza 0-6, currently testing Yakuza 0. Others not modified yet.
+Modified to support GOG versions of Yakuza 0-6, Yakuza 0 works, currently testing Kiwami. Others not modified yet.
 
 ***
 
